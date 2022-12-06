@@ -29,7 +29,7 @@ export class AuthenticationService {
     }
 
     apiURL() {
-      return "http://localhost/api_tugas_crudauth/";
+      return "http://localhost/api_responsi/";
       }
       logout(): Promise<void> {
       this.isAuthenticated.next(false);

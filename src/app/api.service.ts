@@ -12,7 +12,7 @@ export class ApiService {
 
   // link API
   apiURL(){
-    return "http://localhost/api_tugas_crudauth"
+    return "http://localhost/api_responsi"
   }
 
   getPeminjaman(){
